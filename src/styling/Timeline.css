@@ -1,0 +1,39 @@
+.timeline-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 4px solid #007bff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 769px) {
+  .timeline {
+    width: 60%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .timeline-item {
+    font-size: 0.9rem;
+  }
+}

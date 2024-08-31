@@ -1,0 +1,9 @@
+@media(max-width:725px){
+    h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width:1400px){
+    h1{font-size: 2rem}
+}
